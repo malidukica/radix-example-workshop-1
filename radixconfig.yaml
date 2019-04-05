@@ -8,8 +8,8 @@ spec:
       build:
         from: master
   components:
-    - name: workshopradixdm
-      src: ./workshopradixdm
+    - name: echo
+      src: ./echo
       ports:
       - name: http
         port: 3000
