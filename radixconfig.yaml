@@ -1,15 +1,15 @@
 apiVersion: radix.equinor.com/v1
 kind: RadixApplication
 metadata:
-  name: echo
+  name: workshop-radix-dm
 spec:
   environments:
     - name: production
       build:
         from: master
   components:
-    - name: echo
-      src: ./echo
+    - name: workshop-radix-dm
+      src: ./workshop-radix-dm
       ports:
       - name: http
         port: 3000
